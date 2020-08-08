@@ -1,0 +1,229 @@
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+body{
+    font-family: 'Lato', sans-serif;
+}
+ul,li,h1,h2,h3,h4,h5,h6,body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+  text-decoration: none;  
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header-area{
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu ul{
+    display: flex;
+}
+.header-menu ul li{
+    list-style: none;
+}
+.header-menu ul li a{
+    display: block;
+    margin: 10px;
+    color: #080808;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.banner-img{
+   
+    background-image: url(banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+.banner{
+    background-color: #152733;
+    z-index: ;
+}
+.banner-menu ul{
+    display: flex;
+}
+.banner-menu ul li{
+    list-style: none;
+}
+.banner-menu ul li a{
+    display: block;
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+.banner-menu ul li a span{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #354650;
+    font-size: 15px;
+}
+.banner-icon ul{
+    display: flex
+}
+.banner-icon ul li{
+    list-style: none;
+}
+.banner-icon ul li a{
+    display: block;
+}
+.banner-icon ul li a i{
+    padding: 5px;
+    background-color: #f9f6ef;
+    border-radius: 50%;
+    border: 1px solid #6b96a9;
+    margin: 10px;
+    font-size: 20px;
+}
+.banner-icon ul li a .fa-youtube{
+    border: 1px solid #f34755;
+    color: #f34755;
+}
+.banner-icon ul li a .fa-instagram-square{
+    border: 1px solid #9d4f65;
+    color: #9d4f65;
+}
+.blog{
+    background-color: #eeeeee;
+    padding: 40px  0;
+}
+.blog-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.single-blog{
+    width: 28%;
+    background-color: #fff;
+    padding: 20px;
+}
+.single-blog h1{
+    font-size: 30px;
+    font-weight: 200;
+}
+.single-blog p{
+    color: #575755;
+}
+/* end blog area */
+/* Content area */
+.content-area{
+    margin-top: 30px;
+}
+.content-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px;
+}
+.content-text{
+    width: 67%;
+}
+.content-text p{
+    color: #575755;
+}
+.content-text h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+.content-text h4{
+    font-size: 25px;
+    font-weight: 200;
+}                                                   
+.content-form-right{
+    width: 30%;
+}
+.content-form-right h1{
+    color: #272b2c;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.content-form{
+    background-color: #e8e8e8;
+    padding: 20px;
+}
+.content-form ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.content-form ul li a{
+    display: block;
+    color: #6e6e6e;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content-form ul li span{
+    color: #eaeaea;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+/* end content area */
+/* starts contant area */
+.contect-flex{
+    display: flex;
+    margin: 25px 0;
+    justify-content: space-between;
+}
+.contact-location{
+    width: 46%;
+}
+.contact-form{
+    width: 48%;
+}
+.cont-form{
+    display: flex;
+    margin-bottom: 10px;
+}
+.contact-form label{
+    width: 13%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-form form input{
+    width: 60%;
+}
+.contact-form form textarea{
+    width: 60%;
+}
+.contact-location h2,
+.contact-form h2{
+    font-size: 30px;
+    color: #272727;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+.contact-location h2{
+    margin-left: 20px;
+}
+#sub{
+    width: 17%;
+    margin-left: 13%;
+    background-color: #192231;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+}
+/* end contact area */
+/* starts footer area */
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+}
